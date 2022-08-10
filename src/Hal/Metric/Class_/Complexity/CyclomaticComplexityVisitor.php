@@ -98,8 +98,8 @@ class CyclomaticComplexityVisitor extends NodeVisitorAbstract
                             case $node instanceof Node\Expr\BinaryOp\BooleanAnd:
                             case $node instanceof Node\Expr\BinaryOp\BooleanOr:
                             case $node instanceof Stmt\Catch_:
-                            case $node instanceof Node\Expr\Ternary:
-                            case $node instanceof Node\Expr\BinaryOp\Coalesce:
+                            // case $node instanceof Node\Expr\Ternary:
+                            // case $node instanceof Node\Expr\BinaryOp\Coalesce:
                                 $ccn++;
                                 break;
                             case $node instanceof Stmt\Case_: // include default
