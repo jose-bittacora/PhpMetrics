@@ -1,5 +1,5 @@
 {
-    "name": "phpmetrics/phpmetrics",
+    "name": "jose-bittacora/phpmetrics-mod",
     "replace": {
         "halleck45/phpmetrics": "*",
         "halleck45/php-metrics": "*"
